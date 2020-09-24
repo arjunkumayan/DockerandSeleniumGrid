@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+
+ <test thread-count="6" name="Test" parallel="classes"> 
+   <classes>  
+    <class name ="dockerhub.ChromeTest1"/>
+    <class name ="dockerhub.ChromeTest2"/>
+    <class name ="dockerhub.FirefoxTest1"/>
+    <class name ="dockerhub.FirefoxTest2"/>    
+  </classes> 
+  
+  </test> 
+</suite> 
